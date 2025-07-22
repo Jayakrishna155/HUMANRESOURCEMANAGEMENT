@@ -50,7 +50,7 @@ export default function LeaveHistory() {
     };
 
     fetchLeaves();
-  }, []);
+  }, [router]);
 
   const getStatusColor = (status: string) => {
     switch (status) {

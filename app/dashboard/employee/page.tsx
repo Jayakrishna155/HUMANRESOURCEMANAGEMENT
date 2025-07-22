@@ -112,7 +112,7 @@ export default function EmployeeDashboard() {
             <h1 className="text-3xl font-bold text-gray-900">
               Welcome back, {user?.fullName || 'Employee'}!
             </h1>
-            <p className="text-gray-600">Here's your dashboard overview</p>
+            <p>You&apos;re viewing employees</p>
           </div>
           <Link href="/leave/apply">
             <Button className="bg-blue-600 hover:bg-blue-700">

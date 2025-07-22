@@ -198,7 +198,7 @@ export default function ChangePassword() {
               <div className="flex items-start space-x-3">
                 <CheckCircle className="h-5 w-5 text-green-600 mt-0.5" />
                 <div>
-                  <p className="font-medium">Don't reuse passwords</p>
+                  <p className="font-medium">Don&apos;t reuse passwords</p>
                   <p className="text-sm text-gray-600">
                     Use a unique password for your work account
                   </p>
